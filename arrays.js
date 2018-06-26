@@ -26,3 +26,5 @@ function destrivelyRemoveElementFromBeginningOfArray(array) {
   array.shift;
   return array
 }
+
+function dest
