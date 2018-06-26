@@ -27,7 +27,12 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 
+function removeElementFromBeginningOfArray(array) {
+  array.shift;
+}
+
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop;
+  return array;
 }
 
