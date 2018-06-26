@@ -24,7 +24,11 @@ function accessElementInArray(array, index) {
 
 function destrivelyRemoveElementFromBeginningOfArray(array) {
   array.shift;
-  return array
+  return array;
 }
 
-function dest
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop;
+  return array;
+}
+
